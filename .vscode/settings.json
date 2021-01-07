@@ -1,0 +1,5 @@
+{
+    "editor.fontSize": 16, // font size of text
+    "window.zoomLevel": 1, // size of the window where coding happens
+    "editor.formatOnSave": true, //everything changes when you save the text file 
+}
