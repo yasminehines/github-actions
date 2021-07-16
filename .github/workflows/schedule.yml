@@ -8,6 +8,12 @@ jobs:
   run-github-actions:
     runs-on: ubuntu-latest
     steps:
+      - name: echo a string
+        run: echo "Hello World"
+      - name: multiline script
+        run: |
+          node -v 
+          npm -v
       - name: List Files
         run: |
           pwd
