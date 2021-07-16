@@ -12,3 +12,5 @@ jobs:
         run: |
           pwd
           ls -a
+          node -v 
+          npm -v 
