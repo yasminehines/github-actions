@@ -8,15 +8,13 @@ on:
   #   types: [opened,closed]
   # schedule:
   #   - cron: '* * * * *'
-  pull_request: 
-    types: [closed, assigned, opened, reopened]
+  # pull_request: 
+  #   types: [closed, assigned, opened, reopened]
 
 jobs:
   run-github-actions:
     runs-on: ubuntu-latest
     steps:
-      - name: payload
-        run: echo ${{ github.}}
       - name: List Files
         run: |
           pwd

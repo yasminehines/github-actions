@@ -1,8 +1,9 @@
 name: Schedule Workflow
 
 on:
-  schedule:
-    - cron: '* * * * *'
+  issues:
+  # schedule:
+  #   - cron: '* * * * *'
 
 jobs:
   run-github-actions:
